@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap");
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d97706;
+}
+
+.header-container {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.button-home {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+    background-color: var(--primary-color);
+    border: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 20rem;
+    max-width: 80%;
+}
+
+.link-home {
+    border-radius: 1rem;
+    width: 20rem;
+    max-width: 80%;
+    margin: 3rem auto;
+    display: block;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.back-to-home-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.description-line {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0;
+    width: 50rem;
+    max-width: 85%;
+}
+
+.input-headings {
+    text-align: center;
+    margin: 2rem;
+}
+
+.input-boxes {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+#button {
+    display: block;
+    margin: 2rem auto;
+    width: 8rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 1rem;
+}
+
+#error-message {
+    text-align: center;
+    color: red;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#output-message {
+    text-align: center;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    width: 50rem;
+    max-width: 85%;
+}
+
+.quiz-qts {
+    text-align: center;
+    padding: 1.5rem;
+    width: 50rem;
+    max-width: 95%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.quiz-options {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: max-content;
+}
+
+.quiz-button {
+    display: block;
+    margin: 2rem auto;
+    width: 8rem;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#output-score {
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    width: 20rem;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: var(--primary-color);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer-container {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: 4rem;
+}
+
+.small-image-size {
+    width: 2rem;
+    margin: 1rem;
+}

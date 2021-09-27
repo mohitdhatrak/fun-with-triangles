@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz on triangles!</title>
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+    <body>
+        <header class="header-container">
+            <a href="/index.html"
+                ><button class="back-to-home-button">Go back to home</button></a
+            >
+            <h1>A quiz on triangles!</h1>
+        </header>
+
+        <h2 class="description-line">
+            Here are few single-option correct questions on triangles
+        </h2>
+
+        <form id="form-data" onsubmit="return false">
+            <div>
+                <h3 class="quiz-qts">
+                    Q1. If a triangle has 2 of it's angles as 45°, 40°. Is it a
+                    obtuse angled triangle?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question1"
+                        value="Yes"
+                        required
+                    />Yes</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question1"
+                        value="No"
+                        required
+                    />No</label
+                >
+            </div>
+
+            <div>
+                <h3 class="quiz-qts">
+                    Q2. If a triangle has 2 of it's angles as 65°, 35°. Is it a
+                    right angled triangle?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question2"
+                        value="Yes"
+                        required
+                    />Yes</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question2"
+                        value="No"
+                        required
+                    />No</label
+                >
+            </div>
+
+            <div>
+                <h3 class="quiz-qts">
+                    Q3. If a triangle has 2 of it's angles as 75°, 28°. Is it a
+                    acute angled triangle?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question3"
+                        value="Yes"
+                        required
+                    />Yes</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question3"
+                        value="No"
+                        required
+                    />No</label
+                >
+            </div>
+
+            <div>
+                <h3 class="quiz-qts">
+                    Q4. If a triangle has 2 of it's angles as 115°, 15°, what
+                    will be the third angle?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question4"
+                        value="35°"
+                        required
+                    />35°</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question4"
+                        value="50°"
+                        required
+                    />50°</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question4"
+                        value="40°"
+                        required
+                    />40°</label
+                >
+            </div>
+
+            <div>
+                <h3 class="quiz-qts">
+                    Q5. If a triangle has 1 of it's angles as 60° and remaining
+                    2 angles equal then which type of triangle is it?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question5"
+                        value="Right angled triangle"
+                        required
+                    />Right angled triangle</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question5"
+                        value="Obtuse angled triangle"
+                        required
+                    />Obtuse angled triangle</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question5"
+                        value="Equilateral triangle"
+                        required
+                    />Equilateral triangle</label
+                >
+            </div>
+
+            <div>
+                <h3 class="quiz-qts">
+                    Q6. If a triangle has 2 of it's sides length equal to 4cm
+                    and 5cm. If the perimeter is 14cm, then which type of
+                    triangle is it?
+                </h3>
+
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question6"
+                        value="Right angled triangle"
+                        required
+                    />Right angled triangle</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question6"
+                        value="Isosceles triangle"
+                        required
+                    />Isosceles triangle</label
+                >
+                <label class="quiz-options"
+                    ><input
+                        type="radio"
+                        name="question6"
+                        value="Scalene triangle"
+                        required
+                    />Scalene triangle</label
+                >
+            </div>
+
+            <div id="output-score"></div>
+
+            <button class="quiz-button" type="submit">Submit</button>
+        </form>
+
+        <footer class="footer-container">
+            <h2>Connect with me</h2>
+            <div>
+                <a href="https://twitter.com/mohitdhatrak" target="_blank"
+                    ><img src="/twitter.svg" alt="" class="small-image-size"
+                /></a>
+                <a
+                    href="https://www.linkedin.com/in/mohitdhatrak/"
+                    target="_blank"
+                    ><img src="/linkedin.svg" alt="" class="small-image-size"
+                /></a>
+                <a href="https://github.com/mohitdhatrak" target="_blank"
+                    ><img src="/github.svg" alt="" class="small-image-size"
+                /></a>
+            </div>
+        </footer>
+
+        <script src="/quiz.js"></script>
+    </body>
+</html>
