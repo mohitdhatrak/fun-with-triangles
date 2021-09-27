@@ -15,6 +15,7 @@ function clickListener() {
     var number2 = Number(side2);
 
     var hypotenuse = Math.sqrt(number1 * number1 + number2 * number2);
+    var truncatedHypo = hypotenuse.toFixed(2);
 
     if (side1 < 0 || side2 < 0) {
         errorText.innerText = "Please enter positive numerical values only";
@@ -27,7 +28,7 @@ function clickListener() {
             "The definition of a triangle is: A closed figure having three sides and three vertices where the angles corresponding to the vertices are greater than zero. Hence length of a side can't be zero, as side lengths and angles opposite to them are directly proportional.";
     } else {
         outputText.innerText =
-            "Length of hypotenuse is " + hypotenuse + " units";
+            "Length of hypotenuse is " + truncatedHypo + " units";
     }
 }
 
