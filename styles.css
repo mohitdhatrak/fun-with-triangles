@@ -75,7 +75,7 @@ body {
     padding: 1rem;
     width: 20rem;
     border-radius: 0.5rem;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
 }
 
 #button {
