@@ -9,6 +9,10 @@ var answersArray = [
     "50°",
     "Equilateral triangle",
     "Isosceles triangle",
+    "No",
+    "These angles can't form a triangle!",
+    "25 cm",
+    "105°",
 ];
 
 function printRightAnswers() {
@@ -29,7 +33,7 @@ function processQuiz() {
         }
         index++;
     }
-    outputText.innerText = "Your score is " + score + " out of 6";
+    outputText.innerText = "Your score is " + score + " out of 10";
     printRightAnswers();
 }
 
