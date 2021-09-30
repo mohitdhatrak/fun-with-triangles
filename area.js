@@ -26,7 +26,7 @@ function clickListener() {
     } else if (height == "0" || base == "0") {
         errorText.innerText = "Please enter non-zero value of sides";
         outputText.innerText =
-            "The definition of a triangle is: A closed figure having three sides and three vertices where the angles corresponding to the vertices are greater than zero. Hence length of a side can't be zero";
+            "The definition of a triangle is: A closed figure having three sides and three vertices where the angles corresponding to the vertices are greater than zero. Hence length of a side can't be zero, as side lengths and angles opposite to them are directly proportional.";
     } else {
         outputText.innerText = "Area of triangle is " + area + " square units";
     }
