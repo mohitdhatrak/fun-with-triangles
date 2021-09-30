@@ -1,8 +1,8 @@
 # Fun with triangles
 
-Check your knowledge on on triangles by playing a quiz. 
+Check your knowledge of triangles by playing a quiz. 
 
-Calculate the area of a triangle, find the hypotenuse or find out is three sides form a triangle.
+Calculate the area of a triangle, find the hypotenuse, or find out if three given angles form a triangle.
 
 Tech Stack: HTML, CSS & JavaScript
 
